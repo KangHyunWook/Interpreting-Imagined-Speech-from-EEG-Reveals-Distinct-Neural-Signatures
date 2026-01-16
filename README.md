@@ -43,16 +43,16 @@ python plot_attention_topo.py --dataset_dir [root_data_folder_path]
 If this code is helpful for your research, please cite us at:
 
 ```
-@article{kang2025CCMTL,
-  title={Convolutional Channel Modulator for Transformer and LSTM Networks in EEG-based Emotion Recognition},
-  author={Kang, Hyunwook and Choi, Jin Woo and Kim, Byung Hyung},
-  journal={Biomedical Engineering Letters},
-  volume={15},
-  pages={749-761}
-  year={2025}
+@article{kang2026,
+  title={Interpreting imagined speech from {EEG} reveals distinct neural signatures},
+  author={Kang, Hyunwook and Kim, Sejin and Lee, Young-Eun and Lee, Minji},
+  journal={Brain Connectivity},
+  volume={},
+  pages={}
+  year={2026}
 }
 ```
 
 ### Contact
 
-For any questions, please email at [hyunwook.kang@inha.edu](mailto:hyunwook.kang@inha.edu)
+For any questions, please email at [hyunwook.kang@catholic.ac.kr](mailto:hyunwook.kang@catholic.ac.kr)
