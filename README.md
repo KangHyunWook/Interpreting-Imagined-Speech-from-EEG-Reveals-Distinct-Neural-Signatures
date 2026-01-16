@@ -15,11 +15,9 @@ python main.py --model_name Conformer --dataset_dir $FEIS --num_electrodes 14 --
 ```
 
 
-To train and list accuracies for all subjects, run:
-python main.py --model_name [model_name] --dataset_dir [dataset]
 
 Settings for different data:
- -BCIComp: --num_electrodes 64 --n_subjects 15
+ -BCIComp: --num_electrodes 64 --n_subjects 15 \\
  -FEIS: --num_electrodes 14 --n_subjects 21
 
 
