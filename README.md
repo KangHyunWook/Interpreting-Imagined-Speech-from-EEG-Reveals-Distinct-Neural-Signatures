@@ -8,7 +8,7 @@
 ### Data Download and set up environments
 
  - Download [FEIS](https://zenodo.org/records/3554128)
- - set seed_path in run.sh file to its respective path and run the following command.
+ - set FEIS='/FEIS-v1.1/scottwellington-FEIS-7e726fd/experiments'
 
 ```
 bash run.sh
@@ -16,7 +16,7 @@ bash run.sh
 
 - in the above shell file, optional modulator argument activates the modulator
 
-FEIS=/home/Hyunwook/codes/BrainCon-revision/FEIS-v1.1/scottwellington-FEIS-7e726fd/experiments
+
 
 To train and list accuracies for all subjects, run:
 python main.py --model_name [model_name] --dataset_dir [dataset]
