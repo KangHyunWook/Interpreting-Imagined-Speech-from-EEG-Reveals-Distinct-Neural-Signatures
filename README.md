@@ -1,3 +1,5 @@
+# Interpreting-Imagined-Speech-from-EEG-Reveals-Distinct-Neural-Signatures
+
 FEIS=/home/Hyunwook/codes/BrainCon-revision/FEIS-v1.1/scottwellington-FEIS-7e726fd/experiments
 
 To train and list accuracies for all subjects, run:
