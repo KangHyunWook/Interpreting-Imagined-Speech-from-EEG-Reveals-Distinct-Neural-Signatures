@@ -1,4 +1,3 @@
-from build import build_model
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.metrics import confusion_matrix
 
@@ -38,11 +37,9 @@ class Solver(object):
         self.device = device
         
     def build(self, cuda=True):
+        
         if self.model is None:
-            if self.train_config.model_name=='SwinTransformer':
-                self.model = build_model(self.train_config)
-            else:
-                self.model = getattr(models, self.train_config.model_name)(self.train_config)
+            self.model = getattr(models, self.train_config.model_name)(self.train_config)
 
         self.criterion = nn.CrossEntropyLoss(reduction="mean")
 

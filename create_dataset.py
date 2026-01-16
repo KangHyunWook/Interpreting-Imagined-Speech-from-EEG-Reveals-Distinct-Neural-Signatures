@@ -1,3 +1,5 @@
+from subprocess import check_call
+
 import random
 import os
 import scipy.io as sio
@@ -125,6 +127,10 @@ class FEIS:
                 self.train = load_pkl(dep_pkl_train_path)
                 self.test = load_pkl(dep_pkl_test_path)
         except:
+
+            if not os.path.exists(PKL_ROOT):
+                check_call(' '.join(['mkdir', '-p', PKL_ROOT]), shell=True)
+
             if config.exper_setting=='indep':
                 self.train, self.test = self.split_train_test(config.subject)
                 save_pkl(self.train, self.pkl_train_path)
