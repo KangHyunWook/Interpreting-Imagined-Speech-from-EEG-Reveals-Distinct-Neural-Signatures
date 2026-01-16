@@ -14,9 +14,6 @@
 bash run.sh
 ```
 
-- in the above shell file, optional modulator argument activates the modulator
-
-
 
 To train and list accuracies for all subjects, run:
 python main.py --model_name [model_name] --dataset_dir [dataset]
