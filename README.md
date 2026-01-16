@@ -22,7 +22,7 @@ To plot shap run:
 python plot_attention_topo.py --dataset_dir [root_data_folder_path]
 
 <p align="center">
-  <img width="800" src="CCMTL.png">
+  <img width="800" src="Interpretability for imagined speech.png">
 </p>
 
 ### Data Download and set up environments
