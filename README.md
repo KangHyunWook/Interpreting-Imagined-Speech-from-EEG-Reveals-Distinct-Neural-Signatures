@@ -15,17 +15,9 @@ python main.py --model_name Conformer --dataset_dir $FEIS --num_electrodes 14 --
 ```
 
 
-Settings for different data:
+Settings for different data: <br>
  -BCIComp: --num_electrodes 64 --n_subjects 15 <br>
  -FEIS: --num_electrodes 14 --n_subjects 21
-
-
-To plot EEGNet GradCam, run:
-python grad_cam.py --dataset_dir [dataset_path]
-
-
-
-set --dataset_dir to choose data (BCIComp, FEIS)
 
 To plot shap run:
 
