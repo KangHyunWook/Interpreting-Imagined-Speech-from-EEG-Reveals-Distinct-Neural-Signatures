@@ -1,5 +1,21 @@
 # Interpreting-Imagined-Speech-from-EEG-Reveals-Distinct-Neural-Signatures
 
+
+<p align="center">
+  <img width="800" src="vis.png">
+</p>
+
+### Data Download and set up environments
+
+ - Download [FEIS](https://zenodo.org/records/3554128)
+ - set seed_path in run.sh file to its respective path and run the following command.
+
+```
+bash run.sh
+```
+
+- in the above shell file, optional modulator argument activates the modulator
+
 FEIS=/home/Hyunwook/codes/BrainCon-revision/FEIS-v1.1/scottwellington-FEIS-7e726fd/experiments
 
 To train and list accuracies for all subjects, run:
@@ -21,20 +37,6 @@ To plot shap run:
 
 python plot_attention_topo.py --dataset_dir [root_data_folder_path]
 
-<p align="center">
-  <img width="800" src="vis.png">
-</p>
-
-### Data Download and set up environments
-
- - Download [SEED](https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html)
- - set seed_path in run.sh file to its respective path and run the following command.
-
-```
-bash run.sh
-```
-
-- in the above shell file, optional modulator argument activates the modulator
 
 ### Citation
 
