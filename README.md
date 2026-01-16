@@ -8,7 +8,7 @@
 ### Data Download and set up environments
 
  - Download [FEIS](https://zenodo.org/records/3554128)
- - set FEIS='/FEIS-v1.1/scottwellington-FEIS-7e726fd/experiments'
+ - set FEIS to where the directory '/FEIS-v1.1/scottwellington-FEIS-7e726fd/experiments' is
 
 ```
 bash run.sh
