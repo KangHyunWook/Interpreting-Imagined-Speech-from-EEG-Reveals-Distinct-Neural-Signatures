@@ -21,7 +21,7 @@ Settings for different data: <br>
 
 To plot shap run:
 ```
-python plot_attention_topo.py --dataset_dir [root_data_folder_path]
+python plot_attention_topo.py --dataset_dir [root_data_folder_path] --model_name EEG_Transformer
 ```
 
 ### Citation
