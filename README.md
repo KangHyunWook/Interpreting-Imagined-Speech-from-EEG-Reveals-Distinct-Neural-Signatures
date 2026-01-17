@@ -19,7 +19,7 @@ Settings for different data: <br>
  -BCIComp: --num_electrodes 64 --n_subjects 15 <br>
  -FEIS: --num_electrodes 14 --n_subjects 21 --n_classes 2
 
-To plot shap run:
+To plot shap run with the above settings for the respective dataset:
 ```
 python plot_attention_topo.py --dataset_dir [root_data_folder_path] --model_name EEG_Transformer
 ```
