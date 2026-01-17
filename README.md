@@ -17,7 +17,7 @@ python main.py --model_name Conformer --dataset_dir $FEIS --num_electrodes 14 --
 
 Settings for different data: <br>
  -BCIComp: --num_electrodes 64 --n_subjects 15 <br>
- -FEIS: --num_electrodes 14 --n_subjects 21
+ -FEIS: --num_electrodes 14 --n_subjects 21 --n_classes 2
 
 To plot shap run:
 ```
