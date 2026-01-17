@@ -20,9 +20,9 @@ Settings for different data: <br>
  -FEIS: --num_electrodes 14 --n_subjects 21
 
 To plot shap run:
-
+```
 python plot_attention_topo.py --dataset_dir [root_data_folder_path]
-
+```
 
 ### Citation
 
