@@ -29,7 +29,7 @@ python plot_attention_topo.py --dataset_dir [root_data_folder_path] --model_name
 If this code is helpful for your research, please cite us at:
 
 ```
-@article{kang2026,
+@article{Kang2026INTE,
   title={Interpreting imagined speech from {EEG} reveals distinct neural signatures},
   author={Kang, Hyunwook and Kim, Sejin and Lee, Young-Eun and Lee, Minji},
   journal={Brain Connectivity},
